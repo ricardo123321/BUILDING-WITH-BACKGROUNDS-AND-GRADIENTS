@@ -2,7 +2,7 @@
  
 Clone of apple page
 
-![screenshot](./images/Screenshot.png)
+![screenshot](/images/Screenshot.png)
 
 ## Built With
 
