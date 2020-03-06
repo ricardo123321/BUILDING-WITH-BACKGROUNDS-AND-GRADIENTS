@@ -26,11 +26,11 @@ min-width: 900px;
 }
 
 nav ul {
-    list-style-type: none;
-    display: grid;
-    grid-auto-flow: column;
-    height: 33px;
-    overflow-y: hidden;
+        list-style-type: none;
+        display: grid;
+        height: 36px;
+        overflow-y: hidden;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .images {
@@ -48,15 +48,79 @@ img.firts-img{
 nav.nav{
     width: 70%;
     background: linear-gradient( 0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
-    height: 33px;
+    height: 36px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 nav ul a{
     justify-content: center;
+    height: 36px;
+    text-decoration: none;
+    color: #D0D0D0;
+    border-right: 1px solid #666666;    
 }
+
 nav ul li{
     margin-top: 7px;
+    text-align: center;
 }
+
 .logo-apple {
     margin-top: -7px;
+}
+
+.center-text {
+    margin-top: 92px;
+}
+input[type="text"] {
+    border-radius: 10px;
+    background: linear-gradient( 0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
+    border-color: transparent;
+    width: 100px;
+}
+i.fas.fa-search {
+    position: absolute;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-left: 7px;
+}
+.text-2{
+    overflow-y: hidden;
+    height: 30px;
+    margin-top: 20px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 6px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li{
+    list-style-type: none;
+}
+.copyright{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+}
+footer a{
+    color: #08c;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer img{
+    width: 18px;
+}
+.title {
+    text-align: center;
+}
+.title img{
+    width: 600px;
+    min-width: 600px;
 }
