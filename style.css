@@ -25,11 +25,12 @@ width: 900px;
 min-width: 900px;
 }
 
-nav ul{
-list-style-type: none;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    height: 33px;
+    overflow-y: hidden;
 }
 
 .images {
@@ -43,4 +44,19 @@ margin-left: 3px;
 }
 img.firts-img{
     margin-left: 0;
+}
+nav.nav{
+    width: 70%;
+    background: linear-gradient( 0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
+    height: 33px;
+    margin-top: 50px;
+}
+nav ul a{
+    justify-content: center;
+}
+nav ul li{
+    margin-top: 7px;
+}
+.logo-apple {
+    margin-top: -7px;
 }
