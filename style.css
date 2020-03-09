@@ -35,7 +35,7 @@ nav ul {
   display: grid;
   height: 36px;
   overflow-y: hidden;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 105px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .images {
@@ -44,9 +44,36 @@ nav ul {
   margin-right: 9px;
 }
 
-.images img {
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+nav ul li {
+  justify-content: center;
+  height: 36px;
+  text-decoration: none;
+  border-right: 1px solid #666;
+  margin-top: 7px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d0d0d0;
+}
+
+.images a {
   width: 25%;
   margin-left: 3px;
+}
+
+.images img {
+  width: 100%;
 }
 
 img.firts-img {
@@ -61,30 +88,9 @@ nav.nav {
   border-radius: 5px;
 }
 
-footer a {
-  color: #08c;
-  text-decoration: none;
-}
-
-nav ul a {
-  justify-content: center;
-  height: 36px;
-  text-decoration: none;
-  color: #d0d0d0;
-  border-right: 1px solid #666;
-}
-
-footer li {
-  list-style-type: none;
-}
-
-nav ul li {
-  margin-top: 7px;
-  text-align: center;
-}
-
 .logo-apple {
   margin-top: -7px;
+  margin-left: -25px;
 }
 
 .center-text {
