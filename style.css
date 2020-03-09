@@ -6,9 +6,13 @@
 
 body {
   max-width: 1440px;
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
   min-height: 100vh;
+}
+
+.container {
+  min-width: 1440px;
 }
 
 header {
@@ -42,6 +46,7 @@ nav ul {
   margin-top: 3px;
   display: inline-flex;
   margin-right: 9px;
+  width: 100%;
 }
 
 footer a {
@@ -67,17 +72,30 @@ nav ul li a {
   color: #d0d0d0;
 }
 
-.images a {
+.images div {
   width: 25%;
   margin-left: 3px;
+  height: 196px;
 }
 
-.images img {
-  width: 100%;
+.img-1 {
+  background-image: url(images/iphone.jpg);
+  background-size: cover;
 }
 
-img.firts-img {
-  margin-left: 0;
+.img-2 {
+  background-image: url(images/green-iphone.jpg);
+  background-size: cover;
+}
+
+.img-3 {
+  background-image: url(images/happy.jpg);
+  background-size: cover;
+}
+
+.img-4 {
+  background-image: url(images/supplier.jpg);
+  background-size: cover;
 }
 
 nav.nav {
