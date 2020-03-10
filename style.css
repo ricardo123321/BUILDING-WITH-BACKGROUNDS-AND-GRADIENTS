@@ -56,6 +56,8 @@ footer a {
 
 footer li {
   list-style-type: none;
+  border-right: solid 1px #bdb8b8;
+  padding-right: 6px;
 }
 
 nav ul li {
@@ -140,9 +142,10 @@ footer {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 6px;
+  row-gap: 12px;
   font-size: 10px;
-  margin-top: 5px;
+  margin-top: 13px;
+  color: gray;
 }
 
 footer ul {
@@ -152,7 +155,7 @@ footer ul {
 
 .copyright {
   display: grid;
-  grid-template-columns: 0.58fr 1fr;
+  grid-template-columns: 0.37fr 1fr;
 }
 
 .images a {
@@ -172,4 +175,12 @@ footer a:hover {
 .title img {
   width: 600px;
   min-width: 600px;
+}
+
+li#privacy-policy {
+  padding-left: 10px;
+  border-right: none;
+}
+.usa-logo{
+  border-right: none;
 }
