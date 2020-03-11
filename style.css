@@ -26,8 +26,7 @@ footer img {
 }
 
 .center-text img {
-  width: 900px;
-  min-width: 900px;
+  width: 100%;
 }
 
 nav ul {
@@ -35,13 +34,12 @@ nav ul {
   display: grid;
   height: 36px;
   overflow-y: hidden;
-  grid-template-columns: 105px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 109px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .images {
   margin-top: 3px;
-  display: inline-flex;
-  margin-right: 9px;
+  display: flex;
   width: 100%;
 }
 
@@ -72,7 +70,6 @@ nav ul li a {
 
 .images div {
   width: 100%;
-  margin-left: 3px;
   height: 196px;
 }
 
@@ -156,8 +153,6 @@ footer ul {
 
 .images a {
   width: 25%;
-  margin-left: 3px;
-  height: 196px;
 }
 
 footer a:hover {
@@ -169,8 +164,7 @@ footer a:hover {
 }
 
 .title img {
-  width: 600px;
-  min-width: 600px;
+  width: 50%;
 }
 
 li#privacy-policy {
