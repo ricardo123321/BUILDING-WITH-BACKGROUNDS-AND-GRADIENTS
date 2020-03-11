@@ -11,10 +11,6 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  min-width: 1440px;
-}
-
 header {
   display: flex;
   flex-direction: column;
